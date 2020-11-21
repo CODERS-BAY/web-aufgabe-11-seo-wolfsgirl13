@@ -35,6 +35,17 @@ h1 {
     text-shadow: 1px 1px 5px #000;
 }
 
+h3 {
+    color: rgb(5, 5, 87);
+}
+hr {
+    background-color: red;
+    color: red;
+    border: #FF0000;
+    height: 1px;
+}
+
+
 #mainimage {
     background-image: url("image/google-suche-suchmaschinen.jpg");
     height: 50vh;
@@ -59,38 +70,4 @@ h1 {
     padding: 20px 20px 40px;
     width: 100%; /* alle gleich groß*/
 
-}
-.button {
-    background-color: whitesmoke;
-    color: #000;
-    padding: 10px;
-    margin-top: 20px;
-    text-decoration: none;
-    text-transform: uppercase;   
-}
-
-.footer li {
-    display: flex;
-    background-color: #f5deb3;
-    list-style: none;
-    height: 80px;
-    width: 100%;
-    flex-direction: column;
-    text-align: right;
-}
-
-.menu {
-    align-items: center;
-    display: flex;
-}
-
-.menu li {
-    display: flex; /*container*/
-    display: inline;
-}
-
-.menu li a {
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
 }
